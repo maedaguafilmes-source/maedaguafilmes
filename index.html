@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mãe D’Água Filmes · Produtora independente de cinema de impacto</title>
+<meta name="theme-color" content="#35594B">
+<meta name="description" content="Produtora baiana de cinema de impacto. Filmes com lideranças e comunidades indígenas, produção participativa e educação decolonial.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧜‍♀️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--escuro:#35594B;--medio:#378C6B;--menta:#BFF2DF;--claro:#CFFFEC;--brilho:#9CFFD9;
+color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:4rem}
+body{margin:0;background:var(--escuro);color:var(--claro);font:1.05rem/1.65 Figtree,system-ui,sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--brilho);outline-offset:3px}
+h1,h2,h3{font-family:"Rubik Dirt",Impact,sans-serif;font-weight:400;line-height:1.05;margin:0}
+h2{font-size:clamp(2rem,6vw,3.4rem);margin-bottom:1.5rem;color:var(--brilho)}
+h3{font-size:1.6rem;margin-bottom:.4rem}
+nav{position:sticky;top:0;z-index:5;display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap;padding:.8rem clamp(1rem,5vw,4rem);background:var(--menta);color:var(--escuro);border-bottom:3px solid var(--medio);font-weight:600}
+nav a{text-decoration:none}nav a:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.25em}
+nav button{margin-left:auto;background:none;border:2px solid var(--medio);color:var(--escuro);border-radius:2rem;padding:.2rem .9rem;font:inherit;cursor:pointer}
+.en{display:none}body.en .pt{display:none}body.en .en{display:revert}
+.hero{position:relative;display:grid;background:#062551;color:#fff}
+.hero video{display:block;width:100%;aspect-ratio:2048/1080;max-height:78svh;object-fit:contain;background:#062551}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hero-txt{text-align:center;padding:1.2rem 1.2rem 3rem;transition:opacity 1.2s}
+.hero-txt p{margin:0 auto;max-width:34rem;font-size:1.2rem}
+.hero-txt .lema{color:#7fd3ff;font-weight:600;margin-top:.3rem}
+.tocando .hero-txt{opacity:0}
+.ctrl{position:absolute;right:clamp(.6rem,2vw,1.5rem);top:clamp(.6rem,2vw,1.5rem);display:flex;gap:.5rem;z-index:2}
+.ctrl button{background:rgba(6,37,81,.7);color:#fff;border:2px solid #7fd3ff;border-radius:2rem;padding:.25rem .9rem;font:600 .9rem Figtree,sans-serif;cursor:pointer}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+section{padding:clamp(3rem,8vw,6rem) clamp(1rem,5vw,4rem)}
+.wrap{max-width:62rem;margin:0 auto}
+.frentes{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:2rem 2.5rem;margin:0;padding:0;list-style:none}
+.frentes li{border-top:4px solid var(--brilho);padding-top:.8rem}
+.frentes b{display:block;font-size:1.15rem;margin-bottom:.2rem}
+.terra{background:var(--menta);color:var(--escuro)}.claro{background:var(--claro);color:var(--escuro)}.verde{background:var(--escuro)}
+.dir{display:grid;gap:2rem;grid-template-columns:1fr}
+@media(min-width:48rem){.dir{grid-template-columns:1fr 1fr}}
+.filme{padding:2rem 0;border-top:2px solid rgba(207,255,236,.3)}
+.filme .meta{font-weight:600;color:var(--brilho);margin:0 0 .6rem}
+.premios{columns:2 16rem;column-gap:2.5rem;padding-left:1.1rem}
+.premios li{margin-bottom:.6rem;break-inside:avoid}
+.ficha{font-size:.95rem;opacity:.9}
+.contato a.btn{display:inline-block;margin-top:1rem;padding:.8rem 1.6rem;background:var(--escuro);color:var(--claro);font-weight:600;text-decoration:none;border-radius:.3rem}
+.galeria{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:1rem}
+.galeria figure{margin:0}
+.galeria img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 30%;background:var(--escuro)}
+.retrato img{display:block;width:100%;height:auto;background:var(--escuro)}
+.galeria figcaption{font-size:.9rem;padding:.4rem 0 0;opacity:.85}
+.retrato{margin:0 0 1.5rem;max-width:20rem}
+.links{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;margin:.8rem 0 0;padding:0;list-style:none;font-weight:600}
+.links a{text-underline-offset:.2em}
+.cartaz{margin:0}.cartaz img{display:block;width:100%;height:auto}
+.com-cartaz{display:grid;gap:1.5rem}
+.louros{margin:1rem 0}.louros img{display:block;width:100%;height:auto}
+.concept{margin:1.5rem 0 0}.concept img{display:block;width:100%;height:auto;background:var(--escuro)}.concept figcaption{font-size:.9rem;padding:.4rem 0 0;opacity:.85}
+@media(min-width:48rem){.com-cartaz{grid-template-columns:15rem 1fr}}
+details{margin:.8rem 0}summary{cursor:pointer;font-weight:600}
+dl.ficha{display:grid;grid-template-columns:max-content 1fr;gap:.2rem 1rem;margin:.6rem 0 0}
+dl.ficha dt{font-weight:600}dl.ficha dd{margin:0}
+.filmog{padding-left:1.1rem}.filmog li{margin-bottom:.3rem}
+footer{padding:2rem clamp(1rem,5vw,4rem);background:var(--escuro);border-top:4px solid var(--medio);text-align:center;font-size:.9rem}
+.contato{background:var(--brilho);color:var(--escuro)}
+.terra h2,.claro h2,.contato h2,.terra .filmog a{color:var(--escuro)}
+.terra h3,.claro h3{color:var(--escuro)}
+.terra .frentes li,.claro .frentes li{border-top-color:var(--medio)}
+.terra :focus-visible,.claro :focus-visible,.contato :focus-visible,nav :focus-visible{outline-color:var(--escuro)}
+summary{color:var(--brilho)}.terra summary,.claro summary{color:var(--escuro)}
+.links a{color:var(--brilho)}.terra .links a,.claro .links a{color:var(--escuro)}
+.contato a:not(.btn){color:var(--escuro)}
+.galeria figure img{border:3px solid var(--medio)}
+.hero{border-bottom:4px solid var(--medio)}
+</style>
+</head>
+<body>
+<nav>
+<a href="#inicio"><b>Mãe D’Água</b></a>
+<a href="#fazemos"><span class="pt">O que fazemos</span><span class="en">What we do</span></a>
+<a href="#diretora"><span class="pt">Diretora</span><span class="en">Director</span></a>
+<a href="#filmes"><span class="pt">Filmes</span><span class="en">Films</span></a>
+<a href="#galeria"><span class="pt">Galeria</span><span class="en">Gallery</span></a>
+<a href="#contato"><span class="pt">Contato</span><span class="en">Contact</span></a>
+<button id="lang" type="button" aria-label="Português / English">PT · EN</button>
+</nav>
+
+<header class="hero" id="inicio">
+<video id="abertura" muted playsinline preload="auto" poster="media/abertura-poster.jpg" aria-label="Animação do logo Mãe D’Água Filmes">
+<source src="media/abertura.mp4" type="video/mp4">
+</video>
+<h1 class="sr">Mãe D’Água Filmes</h1>
+<div class="ctrl">
+<button id="rever" type="button"><span class="pt">Rever</span><span class="en">Replay</span></button>
+<button id="som" type="button" aria-pressed="false"><span class="pt">Ativar som</span><span class="en">Sound on</span></button>
+</div>
+<div class="hero-txt">
+<p><span class="pt">Produtora independente de cinema de impacto, sediada na Bahia.</span><span class="en">Independent impact cinema producer, based in Bahia, Brazil.</span></p>
+<p class="lema"><span class="pt">Nossa inspiração é ancestral.</span><span class="en">Our inspiration is ancestral.</span></p>
+</div>
+</header>
+
+<section id="fazemos">
+<div class="wrap">
+<h2><span class="pt">Cinema que amplia vozes</span><span class="en">Cinema that amplifies voices</span></h2>
+<ul class="frentes">
+<li><b><span class="pt">Produção participativa</span><span class="en">Participatory production</span></b><span class="pt">Construímos redes que honram o conhecimento ancestral e usamos o cinema para ampliar o alcance de nossas vozes.</span><span class="en">We build networks that honor ancestral knowledge and use cinema to expand the reach of our voices.</span></li>
+<li><b><span class="pt">Educação decolonial</span><span class="en">Decolonial education</span></b><span class="pt">Promovemos debates e palestras com lideranças indígenas e criamos campanhas de conscientização.</span><span class="en">We promote debates and lectures with indigenous leadership and create awareness campaigns.</span></li>
+<li><b><span class="pt">Inclusão</span><span class="en">Inclusion</span></b><span class="pt">Realizamos ações sociais, como cineclubes, caminhadas patrimoniais e sessões sociais para democratizar o acesso à cultura.</span><span class="en">We carry out social actions, such as film clubs, heritage walks and social sessions to democratize access to culture.</span></li>
+<li><b><span class="pt">Inovação</span><span class="en">Innovation</span></b><span class="pt">Criamos experiências imersivas e interativas com projeção mapeada, animação gráfica e inteligência artificial.</span><span class="en">We create immersive and interactive experiences with projection mapping, graphic animation and artificial intelligence.</span></li>
+<li><b><span class="pt">Sustentabilidade</span><span class="en">Sustainability</span></b><span class="pt">Prezamos por valores de proteção ambiental, responsabilidade social e preservação cultural.</span><span class="en">We value environmental protection, social responsibility and cultural preservation.</span></li>
+</ul>
+</div>
+</section>
+
+<section id="diretora" class="terra">
+<div class="wrap">
+<h2><span class="pt">Marcília Cavalcante Barros</span><span class="en">Marcília Cavalcante Barros</span></h2>
+<figure class="retrato"><img src="img/marcilia-panorama.jpg" alt="Marcília Cavalcante Barros no Panorama Internacional Coisa de Cinema, 2024, segurando o prêmio" loading="lazy"></figure>
+<div class="dir">
+<div>
+<p class="pt">Roteirista, documentarista e ativista, fundadora da Mãe D’Água Filmes. Graduada em Cinema pela Faculdade de Tecnologia e Ciências da Bahia, desenvolve uma obra que entrelaça memória, ancestralidade, feminismo e luta indígena, com metodologias colaborativas de escuta e cocriação com as comunidades que filma. Seu cinema se distingue pelo compromisso ético e político com os povos indígenas e pela centralidade das mulheres como guardiãs de saberes, territórios e futuros possíveis.</p>
+<p class="pt">Tem 20 anos de experiência no audiovisual, com passagem por longas nacionais como “À Beira do Caminho”, de Breno Silveira, e “Cidade Baixa” e “A Morte e a Morte de Quincas Berro D’Água”, de Sérgio Machado.</p>
+<p class="en">Screenwriter, documentary filmmaker and activist, founder of Mãe D’Água Filmes. A film graduate of the Faculdade de Tecnologia e Ciências da Bahia, she makes work that weaves memory, ancestry, feminism and indigenous struggle, using collaborative methods of listening and co-creation with the communities she films. Her cinema stands out for its ethical and political commitment to indigenous peoples and for placing women at the center as guardians of knowledge, territories and possible futures.</p>
+<p class="en">She has 20 years in the audiovisual industry, including Brazilian features such as “À Beira do Caminho” by Breno Silveira, and “Cidade Baixa” and “A Morte e a Morte de Quincas Berro D’Água” by Sérgio Machado.</p>
+</div>
+<div>
+<h3><span class="pt">Filmografia</span><span class="en">Filmography</span></h3>
+<ul class="filmog">
+<li>Originárias / Native Worldviews · doc. longa / feature, 72 min, 2025</li>
+<li>Corpo Território · <span class="pt">roteiro de longa híbrido</span><span class="en">hybrid feature script</span>, 2025</li>
+<li>A Menina do Farol · <span class="pt">roteiro de curta de ficção</span><span class="en">short fiction script</span>, 2023 <span class="pt">(Seleção: Shortlist Curta Roteiro 2026)</span><span class="en">(Selection: Shortlist Curta Roteiro 2026)</span></li>
+<li>Cosmovisões · doc., 52 min, 2022</li>
+<li>Pra que não se esqueça e nunca mais aconteça · doc., 15 min, 2015</li>
+<li>Xukuru Ororubá · doc., 15 min, 2007</li>
+<li>Cavaleiros de Aruanda · <span class="pt">roteiro de longa de ficção</span><span class="en">feature fiction script</span>, 2005</li>
+<li>Comportapitalismo · <span class="pt">curta</span><span class="en">short</span>, 5 min, 2005</li>
+<li>Panóptico, laboratório de poder · <span class="pt">curta</span><span class="en">short</span>, 3 min, 2004</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section id="filmes">
+<div class="wrap">
+<h2><span class="pt">Filmes de impacto</span><span class="en">Impact films</span></h2>
+
+<article class="filme com-cartaz">
+<figure class="cartaz"><img src="img/originarias-cartaz.jpg" alt="Cartaz de Originárias, direção de Marcília Cavalcante: ilustração de oito mulheres indígenas sobre um fundo de pigmento laranja" loading="lazy"></figure>
+<div>
+<h3>Originárias</h3>
+<p class="meta"><span class="pt">Documentário de longa-metragem · 72 min · 2025 · Direção: Marcília Cavalcante</span><span class="en">Feature documentary · 72 min · 2025 · Director: Marcília Cavalcante</span></p>
+<p class="pt">Primeiro longa-metragem da diretora, o filme entrelaça feminismo, ancestralidade e luta indígena numa refabulação contracolonial. Filmado em território indígena da Bahia, acompanha um grupo de mulheres que refazem os fios rompidos da história por meio de depoimentos, performances e imagens de arquivo. Mais do que um retrato, é um chamamento: um filme sobre mulheres que sonham o futuro enquanto sustentam a vida com as mãos, com a palavra e com o espírito.</p>
+<p class="en">The director’s first feature weaves feminism, ancestry and indigenous struggle into a counter-colonial re-fabulation. Filmed in indigenous territory in Bahia, it follows a group of women who mend the broken threads of history through testimonies, performances and archive images. More than a portrait, it is a call: a film about women who dream the future while sustaining life with their hands, their words and their spirit.</p>
+<p><b><span class="pt">Melhor Longa-Metragem</span><span class="en">Best Feature</span></b>: FICA 2025 · 16º Festival de Cinema de Triunfo 2025.<br><span class="pt">Seleção oficial</span><span class="en">Official selection</span>: WRPN Women’s International Film Festival 2026 · Toronto International Women Film Festival 2025 · Festival Guarnicê 2026 · <span class="pt">Festival Latino Americano de Cinema Ambiental</span><span class="en">Latin American Environmental Film Festival</span> · <span class="pt">Festival Internacional de Cinema de Carazinho</span><span class="en">Carazinho International Film Festival</span> · MORPHÉ Film Festival 2026 · Almamoura Festival 2026 · Mostra do Filme Marginal 2026.</p>
+<p class="ficha"><span class="pt">Financiamento: BRDE, FSA e ANCINE. Apoio: Governo do Estado da Bahia e Ministério da Cultura. Produção: Mãe D’Água Filmes e Multi Planejamento Cultural.</span><span class="en">Funding: BRDE, FSA and ANCINE. Support: State Government of Bahia and Ministry of Culture. Production: Mãe D’Água Filmes and Multi Planejamento Cultural.</span></p>
+<ul class="links">
+<li><a href="https://www.youtube.com/watch?v=XooJpqcYGWA" rel="noopener" target="_blank"><span class="pt">Assistir ao trailer</span><span class="en">Watch the trailer</span></a></li>
+</ul>
+</div>
+</article>
+
+<article class="filme com-cartaz">
+<figure class="cartaz"><img src="img/cosmovisoes-cartaz.jpg" alt="Cartaz de Cosmovisões: mosaico de rostos de sete mulheres indígenas" loading="lazy"></figure>
+<div>
+<h3>Cosmovisões</h3>
+<p class="meta"><span class="pt">Média-metragem documental · 52 min · 2022</span><span class="en">Documentary featurette · 52 min · 2022</span></p>
+<p class="pt">No sul da Bahia, sete mulheres indígenas convidam à reflexão, transitando por sua mitologia, ancestralidade e caminhos para o bem viver. Premiado em festivais no Brasil e no exterior (veja a seção de prêmios).</p>
+<p class="en">In southern Bahia, seven indigenous women invite reflection, exploring their mythology, ancestry and paths to good living. Awarded at festivals in Brazil and abroad (see the awards section).</p>
+<details><summary><span class="pt">Ficha técnica</span><span class="en">Credits</span></summary>
+<dl class="ficha">
+<dt>Direção/Director</dt><dd>Marcília Cavalcante</dd>
+<dt>Roteiro/Script</dt><dd>Daniella Amaral</dd>
+<dt>Direção de arte/Art</dt><dd>Clarissa Ribeiro</dd>
+<dt>Fotografia/Cinematography</dt><dd>Natália Reis</dd>
+<dt>Produção executiva/Exec. producer</dt><dd>Ana Paula Vasconcelos</dd>
+<dt>Direção de produção/Prod. director</dt><dd>Renata Hasselman</dd>
+<dt>Som direto/Sound</dt><dd>Victor Brasileiro</dd>
+<dt>Montagem/Editing</dt><dd>Carolina Kharo e Marcília Cavalcante</dd>
+<dt>Colorista/Colorist</dt><dd>Clarissa Ribeiro</dd>
+<dt>Trilha sonora/Score</dt><dd>Aline Falcão</dd>
+<dt>Mixagem/Mix</dt><dd>Napoleão Cunha</dd>
+<dt>Produção/Production</dt><dd>Multi Planejamento Cultural</dd>
+<dt>Coprodução/Co-production</dt><dd>Mãe D’Água Filmes</dd>
+<dt>Entrevistas/Interviews</dt><dd>Maya Muniz, Nádia Akawã, Célia Tupinambá, Olinda Muniz, Fabi Kiriri, Rutian Pataxó, Maria da Glória</dd>
+</dl></details>
+<p class="ficha"><span class="pt">Publicação:</span><span class="en">Publication:</span> “Re-existir para além da colonialidade: luta, performance e ancestralidade no documentário Cosmovisões”, de Karliane Macedo Nunes e Fernanda Capibaribe Leite, em <i>Ensaios por uma educação histórica decolonial para (e por) as dissidências desde Pernambuco</i> (org. Janaina Guimarães e Katharine Trajano, 2023).</p>
+<ul class="links">
+<li><a href="https://vimeo.com/776262555" rel="noopener" target="_blank"><span class="pt">Assistir ao trailer</span><span class="en">Watch the trailer</span></a></li>
+<li><a href="https://www.instagram.com/cosmovisoes_ofilme" rel="noopener" target="_blank">Instagram @cosmovisoes_ofilme</a></li>
+</ul>
+</div>
+</article>
+
+<article class="filme com-cartaz">
+<figure class="cartaz"><img src="img/xukuru-cartaz.jpg" alt="Cartaz de Xukuru Ororubá: figura Xukuru com lança sobre fundo verde, com rostos ao redor" loading="lazy"></figure>
+<div>
+<h3>Xukuru Ororubá</h3>
+<p class="meta"><span class="pt">Documentário · 15 min · 2007</span><span class="en">Documentary · 15 min · 2007</span></p>
+<p class="pt">A força política do povo Xukuru se sustenta na força dos encantados que habitam a serra sagrada do Ororubá, em Pernambuco. Imersos no mundo moderno, onde impera a política de exclusão, os Xukuru reafirmam sua identidade, reelaborando suas crenças e criando formas alternativas de organização social, mantendo vivo o sonho de Xikão Xukuru. Primeiro curta comercial da diretora, com patrocínio do Petrobras Cultural. Prêmio do Júri Técnico no Curta Lençóis (UFMA).</p>
+<p class="en">The political strength of the Xukuru people rests on the enchanted beings who inhabit the sacred Ororubá range in Pernambuco. Immersed in a modern world of exclusion, the Xukuru reaffirm their identity, reworking their beliefs and creating alternative forms of social organization, keeping the dream of Xikão Xukuru alive. The director’s first commercial short, sponsored by Petrobras Cultural. Technical Jury Award at Curta Lençóis (UFMA).</p>
+<details><summary><span class="pt">Ficha técnica</span><span class="en">Credits</span></summary>
+<dl class="ficha">
+<dt>Direção/Director</dt><dd>Marcília Barros</dd>
+<dt>Produção/Producers</dt><dd>Bernard Attal, Diana Gurgel e Marcília Barros</dd>
+<dt>Produção executiva/Exec. producer</dt><dd>Marcela Costa</dd>
+<dt>Direção de produção/Prod. director</dt><dd>Sheila Gomes</dd>
+<dt>Fotografia/Cinematography</dt><dd>Nicolas Hallet e Hamilton Oliveira</dd>
+<dt>Fotografia still/Still photography</dt><dd>Fernanda Capibaribe</dd>
+<dt>Edição/Editing</dt><dd>Paulo Márcio</dd>
+<dt>Som direto/Sound</dt><dd>Simone Dourado</dd>
+<dt>Mixagem/Mix</dt><dd>Eduardo Airosa</dd>
+<dt>Música original/Score</dt><dd>Damião Luis da Silva e Antônio Leite (Medalha)</dd>
+<dt>Pesquisa/Research</dt><dd>Manuela Freire</dd>
+<dt>Produtoras/Production</dt><dd>Santa Luzia Filmes e Ondina Filmes</dd>
+<dt>Patrocínio/Sponsors</dt><dd>Petrobras, Governo Federal</dd>
+<dt>Co-patrocínio/Co-sponsors</dt><dd>Engemisa, Grupo Durit, Loja Adrielle, Hotel Villa da Praia</dd>
+</dl></details>
+<ul class="links">
+<li><a href="https://vimeo.com/868945940" rel="noopener" target="_blank"><span class="pt">Assistir ao filme</span><span class="en">Watch the film</span></a></li>
+<li><a href="https://vimeo.com/1038445523" rel="noopener" target="_blank"><span class="pt">Trailer</span><span class="en">Trailer</span></a></li>
+<li><a href="http://xukuruororuba.blogspot.com" rel="noopener" target="_blank"><span class="pt">Leia a crítica</span><span class="en">Read the review</span></a></li>
+</ul>
+</div>
+</article>
+
+<article class="filme">
+<h3>Corpo Território</h3>
+<p class="meta"><span class="pt">Documentário híbrido de longa-metragem, em desenvolvimento</span><span class="en">Hybrid feature documentary, in development</span></p>
+<p class="pt">Três mulheres de diferentes regiões do Brasil, e a violência colonial que persiste nas disputas pelo território.</p>
+<p class="en">Three women from different regions of Brazil, and the colonial violence that persists in territorial disputes.</p>
+<figure class="concept"><img src="img/corpo-territorio-concept.jpg" alt="Concept art de Corpo Território: uma bala de latão à esquerda aponta para uma maraca de madeira à direita, sobre fundo vermelho" loading="lazy"><figcaption><span class="pt">Concept art · Corpo Território</span><span class="en">Concept art · Corpo Território</span></figcaption></figure>
+</article>
+</div>
+</section>
+
+<section id="galeria" class="claro">
+<div class="wrap">
+<h2><span class="pt">Galeria</span><span class="en">Gallery</span></h2>
+<div class="galeria">
+<figure><img src="img/cosmovisoes-paje.jpg" alt="Mulher indígena de cocar azul sob uma árvore, soprando um cachimbo ritual" loading="lazy"><figcaption>Cosmovisões</figcaption></figure>
+<figure><img src="img/cosmovisoes-rosto.jpg" alt="Close do rosto de uma mulher indígena com pintura vermelha e grafismo preto" loading="lazy"><figcaption>Cosmovisões</figcaption></figure>
+<figure><img src="img/cosmovisoes-fogo.jpg" alt="Performance de uma figura coberta de fibras diante de um fundo de chamas" loading="lazy"><figcaption>Cosmovisões</figcaption></figure>
+<figure><img src="img/cosmovisoes-floresta.jpg" alt="Mulher indígena com cocar de palha e colar de flores na mata" loading="lazy"><figcaption>Cosmovisões</figcaption></figure>
+<figure><img src="img/cosmovisoes-performance.jpg" alt="Performer de perfil entre cestos suspensos em uma cena enfumaçada" loading="lazy"><figcaption>Cosmovisões</figcaption></figure>
+<figure><img src="img/maria-da-gloria.jpg" alt="Maria da Glória, liderança, de cocar de penas" loading="lazy"><figcaption>Maria da Glória, <span class="pt">liderança</span><span class="en">leader</span></figcaption></figure>
+<figure><img src="img/fabi-kiriri.jpg" alt="Fabi Kiriri, nutricionista, de cocar de palha e brinco de flor" loading="lazy"><figcaption>Fabi Kiriri, <span class="pt">nutricionista</span><span class="en">nutritionist</span></figcaption></figure>
+<figure><img src="img/nadia-akawa.jpg" alt="Nádia Akawã, mulher medicina, sentada sob uma árvore com cocar azul" loading="lazy"><figcaption>Nádia Akawã, <span class="pt">mulher medicina</span><span class="en">medicine woman</span></figcaption></figure>
+<figure><img src="img/originarias-marcha.jpg" alt="Mulheres indígenas de cocar e pintura vermelha cantando à frente de uma marcha, diante de uma faixa branca e vermelha" loading="lazy"><figcaption>Originárias</figcaption></figure>
+<figure><img src="img/xukuru-multidao.jpg" alt="Duas lideranças Xukuru de cocar, de costas, diante de uma multidão em uma rua" loading="lazy"><figcaption>Xukuru Ororubá</figcaption></figure>
+<figure><img src="img/xukuru-canto.jpg" alt="Três pessoas Xukuru cantando, em preto e branco" loading="lazy"><figcaption>Xukuru Ororubá</figcaption></figure>
+<figure><img src="img/corpo-territorio-foto.jpg" alt="Pessoas sentadas no chão, cercadas por policiais militares de capacete branco, em um coqueiral" loading="lazy"><figcaption>Corpo Território</figcaption></figure>
+<figure><img src="img/500-anos-saturnino.jpg" alt="Multidão com faixas de protesto, entre elas &quot;500 anos de&quot;, e indígenas de cocar e maracá na praia" loading="lazy"><figcaption>Corpo Território</figcaption></figure>
+<figure><img src="img/corpo-territorio-gildo.jpg" alt="Policiais de choque avançam sob chuva em uma rodovia, com um homem deitado no asfalto em primeiro plano" loading="lazy"><figcaption>Corpo Território</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section id="premios" class="verde">
+<div class="wrap">
+<h2><span class="pt">Prêmios e seleções</span><span class="en">Awards and selections</span></h2>
+<h3>Originárias</h3>
+<ul class="premios">
+<li><span class="pt">Melhor Longa-Metragem:</span><span class="en">Best Feature:</span> FICA – International Environmental Film Festival, 2025</li>
+<li><span class="pt">Melhor Longa-Metragem:</span><span class="en">Best Feature:</span> 16º Festival de Cinema de Triunfo, 2025</li>
+<li><span class="pt">Seleção oficial:</span><span class="en">Official selection:</span> WRPN Women’s International Film Festival, 2026 · Toronto International Women Film Festival, 2025 · Festival Guarnicê, 2026 · <span class="pt">Festival Latino Americano de Cinema Ambiental</span><span class="en">Latin American Environmental Film Festival</span> · <span class="pt">Festival Internacional de Cinema de Carazinho</span><span class="en">Carazinho International Film Festival</span> · MORPHÉ Film Festival, 2026 · Almamoura Festival, 2026 · Mostra do Filme Marginal, 2026</li>
+</ul>
+<h3 style="margin-top:1.5rem">Cosmovisões</h3>
+<figure class="louros"><img src="img/cosmovisoes-louros.jpg" alt="Louros de prêmios e seleções de Cosmovisões: Panorama Coisa de Cinema, Frome International Climate Festival, Our Heritage Our Planet Film Week, Student World Impact Film Festival, Vaasa Wildlife Festival 2024, Olhar Film Festival, Festival del Cinema di Cefalù, CMS Vatavaran 2024, entre outros" loading="lazy"></figure>
+<details><summary><span class="pt">Ver em texto</span><span class="en">View as text</span></summary>
+<ul class="premios">
+<li><span class="pt">Melhor filme:</span><span class="en">Best film:</span> Our Heritage, Our Planet Film Week, 2023</li>
+<li><span class="pt">Melhor filme:</span><span class="en">Best film:</span> Student World Impact Film Festival, 2023</li>
+<li><span class="pt">Melhor filme:</span><span class="en">Best film:</span> Panorama Coisa de Cinema (BR), 2024</li>
+<li><span class="pt">Melhor direção de arte:</span><span class="en">Best art direction:</span> Panorama Coisa de Cinema (BR), 2024</li>
+<li><span class="pt">Melhor diretora LGBTQIAPN+:</span><span class="en">Best LGBTQIAPN+ director:</span> Frome International Climate Film Festival (UK), 2024</li>
+<li><span class="pt">3º lugar, Melhores Estreantes:</span><span class="en">3rd runner-up, Best Newcomers:</span> Vaasa Wildlife Festival, 2024</li>
+<li><span class="pt">Indicado:</span><span class="en">Nominee:</span> Olhar Film Festival, 2023 · Festival del Cinema di Cefalù, 2023</li>
+<li><span class="pt">Semifinalista:</span><span class="en">Semi-finalist:</span> 12th CMS Vatavaran, 2024</li>
+</ul>
+<p><b><span class="pt">Seleções oficiais de Cosmovisões</span><span class="en">Cosmovisões official selections</span></b></p>
+<ul class="premios">
+<li>Contra El Silencio Todas Las Voces, 2024</li>
+<li>HECare Film Festival, 2024</li>
+<li>Aporia International Village Film Festival, 2023</li>
+<li>Egyptian American Film Festival, 2023</li>
+<li>Hibulb Cultural Center Film Festival, 2023</li>
+<li>Science Film Festival, 2023</li>
+<li>Festival de Cine Amazonia del Plata, 2023</li>
+<li>Inheritance Festival, 2023</li>
+<li>SaranCine, 2023</li>
+<li>Golden FEMI Film Festival, 2023</li>
+<li>Latino &amp; Native American Film Festival, 2023</li>
+<li>Lift-Off Global Network Sessions, 2023</li>
+</ul>
+</details>
+</div>
+</section>
+
+<section id="contato" class="contato">
+<div class="wrap">
+<h2><span class="pt">Vamos conversar</span><span class="en">Let’s talk</span></h2>
+<p class="pt">Para parcerias, exibições, sessões com debate e projetos de impacto.</p>
+<p class="en">For partnerships, screenings, Q&amp;A sessions and impact projects.</p>
+<p><a href="https://maedagua.myportfolio.com" rel="noopener" target="_blank"><span class="pt">Portfólio digital</span><span class="en">Digital portfolio</span></a></p>
+<a class="btn" href="mailto:maedaguafilmes@gmail.com"><span class="pt">Escrever para a Mãe D’Água</span><span class="en">Email Mãe D’Água</span></a>
+</div>
+</section>
+
+<footer>© Mãe D’Água Filmes · Bahia, Brasil</footer>
+
+<script>
+(function(){
+var v=document.getElementById('abertura'),h=document.getElementById('inicio'),som=document.getElementById('som'),rv=document.getElementById('rever');
+var reduz=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+function fim(){h.classList.remove('tocando')}
+function tocar(){h.classList.add('tocando');v.currentTime=0;var p=v.play();if(p&&p.catch)p.catch(fim)}
+v.addEventListener('ended',fim);v.addEventListener('error',fim);
+if(reduz){v.removeAttribute('autoplay');fim()}else{tocar();setTimeout(fim,10000)}
+rv.addEventListener('click',tocar);
+som.addEventListener('click',function(){v.muted=!v.muted;som.setAttribute('aria-pressed',String(!v.muted));
+som.querySelector('.pt').textContent=v.muted?'Ativar som':'Silenciar';som.querySelector('.en').textContent=v.muted?'Sound on':'Mute'});
+})();
+</script>
+<script>
+(function(){
+var b=document.body,btn=document.getElementById('lang');
+function set(en){b.classList.toggle('en',en);document.documentElement.lang=en?'en':'pt-BR';try{localStorage.setItem('lang',en?'en':'pt')}catch(e){}}
+try{if(localStorage.getItem('lang')==='en')set(true)}catch(e){}
+btn.addEventListener('click',function(){set(!b.classList.contains('en'))});
+})();
+</script>
+</body>
+</html>
